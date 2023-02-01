@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #1d1d20;
+  color: #d1d1d1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  padding: 10px;
+  border-bottom: 5px solid #c42828;
+  display: inline-block;
+}
+
+h3 {
+  margin: 20px auto 0 auto;
+}
+
+p {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto 0 auto;
+  padding: 0 30px;
+}
+
+.grid2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.grid2 .about {
+  border-right: 5px solid #c42828;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-size: 46px;
+  margin-bottom: 30px;
+}
+
+.about, .skills {
+  padding: 30px;
+}
+
+.about p, .skills p {
+  text-align: left;
+}
+
+.skills div {
+  text-align: left;
+}
+
+.skills div ul {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.skills div ul li {
+  line-height: 1.6;
+}
+
+.additionalSkills {
+  text-align: center !important;
+}
+
+.additionalSkills ul {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.contactInfo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contactInfo svg {
+  font-size: 50px;
+  color: #cccccc;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contactInfo svg:hover {
+  color: #c42828;
+}
+
+.mail a {
+  color: #cccccc;
+  text-decoration: none;
+  margin: 20px 0 50px 0;
+  display: inline-block;
+  font-size: 20px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.mail a:hover {
+  color: #c42828;
+}
+
+@media only screen and (max-width: 992px) {
+  .grid2 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .about {
+    border: none !important;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */
