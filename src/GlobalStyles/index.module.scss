@@ -8,17 +8,14 @@ $dark : #1d1d20;
 $grey: #d1d1d1;
 $lightGrey: #cccccc;
 $red: #c42828;
-
 $borderRed: 5px solid #c42828;
+
 body {
     background: $dark;
     color: $grey;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-img {
-    max-width: 100%;
-}
 h1, h2,h3 {
     padding: 10px;
     border-bottom: $borderRed;
