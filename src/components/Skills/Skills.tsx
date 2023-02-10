@@ -12,7 +12,7 @@ const Skills = () => {
           <li>Typescript</li>
           <li>
             React - hooks(ContextAPI, useReducer, custom hooks...), Redux
-            Toolkit
+            Toolkit, Zustand
           </li>
           <li>Git</li>
           <li>Rest API</li>
