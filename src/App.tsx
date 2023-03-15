@@ -2,6 +2,7 @@ import styles from "./GlobalStyles/index.module.css";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import ContactInfo from "./components/ContactInfo/ContactInfo";
+import Projects from "./components/Projects/Projects";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           <About />
           <Skills />
         </div>
+        <Projects />
         <ContactInfo />
       </div>
     </div>
