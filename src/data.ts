@@ -1,3 +1,4 @@
+
 export interface DataI {
   id: number;
   image: string;
