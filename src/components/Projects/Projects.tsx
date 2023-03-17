@@ -8,7 +8,7 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className={styles.grid3}>
         {projectsData.map((project) => {
-          const { id, image, projectUrl, githubUrl } = project;
+          const { id, image, projectUrl, githubUrl, title } = project;
           return (
             <ProjectsDetails
               key={id}
@@ -16,6 +16,7 @@ const Projects = () => {
               image={image}
               projectUrl={projectUrl}
               githubUrl={githubUrl}
+              title={title}
             />
           );
         })}

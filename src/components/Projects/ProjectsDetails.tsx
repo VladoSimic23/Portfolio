@@ -2,9 +2,10 @@ import styles from "../../GlobalStyles/index.module.css";
 import { FaGithub } from "react-icons/fa";
 import { DataI } from "../../data";
 
-const ProjectsDetails = ({ projectUrl, githubUrl, image }: DataI) => {
+const ProjectsDetails = ({ projectUrl, githubUrl, image, title }: DataI) => {
   return (
     <div className={styles.projectParent}>
+      <h3>{title}</h3>
       <img src={image} alt="cart" />
       <div className={styles.projectLinks}>
         <div>
