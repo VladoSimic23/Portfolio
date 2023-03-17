@@ -121,16 +121,13 @@ p {
 position: relative;
 img {
     width: 100%;
-    height: 100%;
     object-fit: contain;
     transition: all 0.4s;
     padding: 15px;
 }
     &:hover > .projectLinks {
         visibility: visible;
-    }
-    &:hover > img {
-        border: 1px solid $red;
+        background: rgba(163, 17, 17, 0.371);
     }
 }
 .projectLinks {

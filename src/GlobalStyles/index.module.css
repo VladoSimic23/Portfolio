@@ -137,7 +137,6 @@ p {
 
 .projectParent img {
   width: 100%;
-  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
   -webkit-transition: all 0.4s;
@@ -147,10 +146,7 @@ p {
 
 .projectParent:hover > .projectLinks {
   visibility: visible;
-}
-
-.projectParent:hover > img {
-  border: 1px solid #c42828;
+  background: rgba(163, 17, 17, 0.371);
 }
 
 .projectLinks {
