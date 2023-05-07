@@ -26,7 +26,7 @@ const Skills = () => {
             <li>Testing: React Testing Library / Jest</li>
             <li>MongoDb</li>
             <li>Firebase</li>
-            <li>CMS: Joomla, Wordpress</li>
+            <li>CMS: Sanity, Wordpress</li>
           </ul>
         </div>
       </div>
