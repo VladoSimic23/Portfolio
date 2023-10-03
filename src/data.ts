@@ -64,4 +64,12 @@ export const projectsData: DataI[] = [
     projectUrl: "https://vsimic-voting.netlify.app/",
     githubUrl: "https://github.com/VladoSimic23/Voting-",
   },
+  {
+    id: 8,
+    title: "Avantgarde Service",
+    image:
+      "https://drive.google.com/file/d/1jJQnVzVky1EcdSSNzk4rNkdyZiGK_Fvv/view",
+    projectUrl: "https://avantgardeservice.com",
+    githubUrl: "https://github.com/VladoSimic23/AvantgardeServiceFrontend",
+  },
 ];
