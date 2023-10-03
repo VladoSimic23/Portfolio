@@ -68,7 +68,7 @@ export const projectsData: DataI[] = [
     id: 8,
     title: "Avantgarde Service",
     image:
-      "https://drive.google.com/file/d/1jJQnVzVky1EcdSSNzk4rNkdyZiGK_Fvv/view",
+      "https://drive.google.com/file/d/1jJQnVzVky1EcdSSNzk4rNkdyZiGK_Fvv/preview",
     projectUrl: "https://avantgardeservice.com",
     githubUrl: "https://github.com/VladoSimic23/AvantgardeServiceFrontend",
   },
