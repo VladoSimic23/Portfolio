@@ -6,7 +6,7 @@ const ProjectsDetails = ({ projectUrl, githubUrl, image, title }: DataI) => {
   return (
     <div className={styles.projectParent}>
       <h3>{title}</h3>
-      <img src={image} alt="cart" />
+      <img src={image} alt={title} />
       <div className={styles.projectLinks}>
         <div>
           <a href={githubUrl} target="_blank" rel="noreferrer">
